@@ -747,7 +747,6 @@ proxies:
   - {name: TG频道@mfbpn-0790-NL, server: 149.34.244.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: TG频道@mfbpn-0791-GB, server: 141.98.101.179, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: TG频道@mfbpn-0792-DE, server: 165.232.120.176, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: wHfZvjuscmkgPYQnpvXpRy, udp: true}
-  - {name: TG频道@mfbpn-0793-GB, server: 141.98.101.182, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: TG频道@mfbpn-0794-RELAY, server: 172.67.42.232, port: 80, type: vmess, uuid: 4bf074f4-7e9c-4e4b-a10d-156e26199729, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
   - {name: TG频道@mfbpn-0795-NL, server: 149.34.244.77, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: TG频道@mfbpn-0796-NL, server: 149.34.244.68, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -801,8 +800,8 @@ proxies:
   - {name: TG频道@mfbpn-0844-CA, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: TG频道@mfbpn-0845-US, server: 212.102.47.130, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: TG频道@mfbpn-0846-US, server: 212.102.47.132, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: TG频道@mfbpn-0847-US, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: TG频道@mfbpn-0848-IN, server: 185.67.125.177, port: 443, type: trojan, password: !<str> 3747000103274291200, sni: quality-albacore.adder289.quest, skip-cert-verify: true, udp: true}
-  - {name: TG频道@mfbpn-0849-US, server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: TG频道@mfbpn-0850-US, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: TG频道@mfbpn-0851-US, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: TG频道@mfbpn-0852-US, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
@@ -849,6 +848,7 @@ proxies:
   - {name: TG频道@mfbpn-0893-US, server: 38.14.107.226, port: 38003, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/340434130032}, udp: true}
   - {name: TG频道@mfbpn-0894-RELAY, server: uswuxian.pai50288.uk, port: 8443, type: vmess, uuid: c313606f-98c2-4d7b-ba74-48b94f61b11d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uswuxian.pai50288.uk}}, udp: true}
   - {name: TG频道@mfbpn-0895-IE, server: 63.32.121.150, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: TG频道@mfbpn-0896-NL, server: 213.109.147.242, port: 62685, type: ss, cipher: chacha20-ietf-poly1305, password: VpKABcOpNNA0l5G2AVOmw8, udp: true}
   - {name: TG频道@mfbpn-0897-GB, server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: mps3FwmDjLrWaOVg, udp: true}
   - {name: TG频道@mfbpn-0898-FR, server: 13.37.72.176, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
   - {name: TG频道@mfbpn-0899-BH, server: admin.c3.webramz.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Bog0ELmMM9DSxDdQ, udp: true}
@@ -1174,9 +1174,9 @@ proxies:
   - {name: TG频道@mfbpn-1223-US, server: 38.91.107.66, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: TG频道@mfbpn-1224-US, server: 38.91.107.66, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: TG频道@mfbpn-1225-US, server: 38.91.107.66, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: TG频道@mfbpn-1226-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcEtBQmNPcE5OQTBsNUcyQVZPbXc4@213.109.147.24262685#TG频道@mfbpn-0896-NL, server: 38.91.107.66, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: TG频道@mfbpn-1226-USss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.182443#TG频道@mfbpn-0793-GB, server: 38.91.107.66, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: TG频道@mfbpn-1227-PT, server: 185.231.233.173, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3, udp: true}
-  - {name: TG频道@mfbpn-1228-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#TG频道@mfbpn-0847-US, server: 52.78.98.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: TG频道@mfbpn-1228-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#TG频道@mfbpn-0849-US, server: 52.78.98.113, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 节点选择
     type: select
@@ -1881,7 +1881,6 @@ proxy-groups:
       - TG频道@mfbpn-0790-NL
       - TG频道@mfbpn-0791-GB
       - TG频道@mfbpn-0792-DE
-      - TG频道@mfbpn-0793-GB
       - TG频道@mfbpn-0794-RELAY
       - TG频道@mfbpn-0795-NL
       - TG频道@mfbpn-0796-NL
@@ -1935,8 +1934,8 @@ proxy-groups:
       - TG频道@mfbpn-0844-CA
       - TG频道@mfbpn-0845-US
       - TG频道@mfbpn-0846-US
+      - TG频道@mfbpn-0847-US
       - TG频道@mfbpn-0848-IN
-      - TG频道@mfbpn-0849-US
       - TG频道@mfbpn-0850-US
       - TG频道@mfbpn-0851-US
       - TG频道@mfbpn-0852-US
@@ -1983,6 +1982,7 @@ proxy-groups:
       - TG频道@mfbpn-0893-US
       - TG频道@mfbpn-0894-RELAY
       - TG频道@mfbpn-0895-IE
+      - TG频道@mfbpn-0896-NL
       - TG频道@mfbpn-0897-GB
       - TG频道@mfbpn-0898-FR
       - TG频道@mfbpn-0899-BH
@@ -2308,9 +2308,9 @@ proxy-groups:
       - TG频道@mfbpn-1223-US
       - TG频道@mfbpn-1224-US
       - TG频道@mfbpn-1225-US
-      - TG频道@mfbpn-1226-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcEtBQmNPcE5OQTBsNUcyQVZPbXc4@213.109.147.24262685#TG频道@mfbpn-0896-NL
+      - TG频道@mfbpn-1226-USss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.182443#TG频道@mfbpn-0793-GB
       - TG频道@mfbpn-1227-PT
-      - TG频道@mfbpn-1228-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#TG频道@mfbpn-0847-US
+      - TG频道@mfbpn-1228-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#TG频道@mfbpn-0849-US
   - name: 自动选择
     type: url-test
     url: https://www.pornhub.com
@@ -2485,6 +2485,7 @@ proxy-groups:
       - TG频道@mfbpn-0881-FR
       - TG频道@mfbpn-0886-GB
       - TG频道@mfbpn-0891-US
+      - TG频道@mfbpn-0896-NL
       - TG频道@mfbpn-0901-DE
       - TG频道@mfbpn-0906-JP
       - TG频道@mfbpn-0911-RELAY
@@ -2549,7 +2550,7 @@ proxy-groups:
       - TG频道@mfbpn-1211-US
       - TG频道@mfbpn-1216-US
       - TG频道@mfbpn-1221-US
-      - TG频道@mfbpn-1226-USss//Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWcEtBQmNPcE5OQTBsNUcyQVZPbXc4@213.109.147.24262685#TG频道@mfbpn-0896-NL
+      - TG频道@mfbpn-1226-USss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.182443#TG频道@mfbpn-0793-GB
   - name: 测速2分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2704,6 +2705,7 @@ proxy-groups:
       - TG频道@mfbpn-0832-CN
       - TG频道@mfbpn-0837-GB
       - TG频道@mfbpn-0842-US
+      - TG频道@mfbpn-0847-US
       - TG频道@mfbpn-0852-US
       - TG频道@mfbpn-0857-FR
       - TG频道@mfbpn-0862-US
@@ -2778,7 +2780,6 @@ proxy-groups:
       - TG频道@mfbpn-1217-US
       - TG频道@mfbpn-1222-US
       - TG频道@mfbpn-1227-PT
-      - TG频道@mfbpn-1228-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#TG频道@mfbpn-0847-US
   - name: 测速3分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -2922,7 +2923,6 @@ proxy-groups:
       - TG频道@mfbpn-0778-SG
       - TG频道@mfbpn-0783-GB
       - TG频道@mfbpn-0788-DE
-      - TG频道@mfbpn-0793-GB
       - TG频道@mfbpn-0798-RELAY
       - TG频道@mfbpn-0803-GB
       - TG频道@mfbpn-0808-GB
@@ -3008,7 +3008,8 @@ proxy-groups:
       - TG频道@mfbpn-1213-US
       - TG频道@mfbpn-1218-US
       - TG频道@mfbpn-1223-US
-      - TG频道@mfbpn-1228-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.168443#TG频道@mfbpn-0847-US
+      - TG频道@mfbpn-1226-USss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.182443#TG频道@mfbpn-0793-GB
+      - TG频道@mfbpn-1228-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#TG频道@mfbpn-0849-US
   - name: 测速4分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -3163,7 +3164,6 @@ proxy-groups:
       - TG频道@mfbpn-0834-CN
       - TG频道@mfbpn-0839-CN
       - TG频道@mfbpn-0844-CA
-      - TG频道@mfbpn-0849-US
       - TG频道@mfbpn-0854-US
       - TG频道@mfbpn-0859-US
       - TG频道@mfbpn-0864-CN
@@ -3239,6 +3239,7 @@ proxy-groups:
       - TG频道@mfbpn-1214-US
       - TG频道@mfbpn-1219-US
       - TG频道@mfbpn-1224-US
+      - TG频道@mfbpn-1228-KRss//YWVzLTEyOC1nY206c2hhZG93c29ja3M@156.146.38.170443#TG频道@mfbpn-0849-US
   - name: 测速5分组
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -13515,6 +13516,377 @@ rules:
  - DOMAIN-SUFFIX,tracker.yhd.com,应用净化
  - DOMAIN-SUFFIX,tralog.ganji.com,应用净化
  - DOMAIN-SUFFIX,up.qingdaonews.com,应用净化
+ - DOMAIN-SUFFIX,edgedatg.com,节点选择
+ - DOMAIN-SUFFIX,go.com,节点选择
+ - DOMAIN-KEYWORD,anthropic,节点选择
+ - DOMAIN-KEYWORD,claude,节点选择
+ - DOMAIN-KEYWORD,openai,节点选择
+ - DOMAIN,ai.google.dev,节点选择
+ - DOMAIN,aistudio.google.com,节点选择
+ - DOMAIN,api.githubcopilot.com,节点选择
+ - DOMAIN,api.groq.com,节点选择
+ - DOMAIN,api.together.xyz,节点选择
+ - DOMAIN,bard.google.com,节点选择
+ - DOMAIN,console.groq.com,节点选择
+ - DOMAIN,copilot-proxy.githubusercontent.com,节点选择
+ - DOMAIN,gemini.google.com,节点选择
+ - DOMAIN,generativelanguage.googleapis.com,节点选择
+ - DOMAIN,notebooklm.google.com,节点选择
+ - DOMAIN,sydney.bing.com,节点选择
+ - DOMAIN-SUFFIX,ai.azure.com,节点选择
+ - DOMAIN-SUFFIX,anthropic.com,节点选择
+ - DOMAIN-SUFFIX,auth0.com,节点选择
+ - DOMAIN-SUFFIX,bard.google.com,节点选择
+ - DOMAIN-SUFFIX,chatgpt.com,节点选择
+ - DOMAIN-SUFFIX,claude.ai,节点选择
+ - DOMAIN-SUFFIX,claude.com,节点选择
+ - DOMAIN-SUFFIX,claudeusercontent.com,节点选择
+ - DOMAIN-SUFFIX,client-api.arkoselabs.com,节点选择
+ - DOMAIN-SUFFIX,copilot.cloud.microsoft,节点选择
+ - DOMAIN-SUFFIX,copilot.microsoft.com,节点选择
+ - DOMAIN-SUFFIX,cursor.com,节点选择
+ - DOMAIN-SUFFIX,cursor.sh,节点选择
+ - DOMAIN-SUFFIX,events.statsigapi.net,节点选择
+ - DOMAIN-SUFFIX,featuregates.org,节点选择
+ - DOMAIN-SUFFIX,gemini.google.com,节点选择
+ - DOMAIN-SUFFIX,grazie.ai,节点选择
+ - DOMAIN-SUFFIX,grazie.aws.intellij.net,节点选择
+ - DOMAIN-SUFFIX,identrust.com,节点选择
+ - DOMAIN-SUFFIX,intercom.io,节点选择
+ - DOMAIN-SUFFIX,intercomcdn.com,节点选择
+ - DOMAIN-SUFFIX,jetbrains.ai,节点选择
+ - DOMAIN-SUFFIX,makersuite.google.com,节点选择
+ - DOMAIN-SUFFIX,meta.ai,节点选择
+ - DOMAIN-SUFFIX,mistral.ai,节点选择
+ - DOMAIN-SUFFIX,oaistatic.com,节点选择
+ - DOMAIN-SUFFIX,oaiusercontent.com,节点选择
+ - DOMAIN-SUFFIX,openai.com,节点选择
+ - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,节点选择
+ - DOMAIN-SUFFIX,perplexity.ai,节点选择
+ - DOMAIN-SUFFIX,sora.com,节点选择
+ - DOMAIN-SUFFIX,x.ai,节点选择
+ - DOMAIN-KEYWORD,abematv.akamaized.net,节点选择
+ - DOMAIN-SUFFIX,abema.io,节点选择
+ - DOMAIN-SUFFIX,abema.tv,节点选择
+ - DOMAIN-SUFFIX,ameba.jp,节点选择
+ - DOMAIN-SUFFIX,hayabusa.io,节点选择
+ - DOMAIN-SUFFIX,c4assets.com,节点选择
+ - DOMAIN-SUFFIX,channel4.com,节点选择
+ - DOMAIN-KEYWORD,avoddashs,节点选择
+ - DOMAIN,atv-ps.amazon.com,节点选择
+ - DOMAIN,avodmp4s3ww-a.akamaihd.net,节点选择
+ - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,节点选择
+ - DOMAIN,d1xfray82862hr.cloudfront.net,节点选择
+ - DOMAIN,d22qjgkvxw22r6.cloudfront.net,节点选择
+ - DOMAIN,d25xi40x97liuc.cloudfront.net,节点选择
+ - DOMAIN,d27xxe7juh1us6.cloudfront.net,节点选择
+ - DOMAIN,d3196yreox78o9.cloudfront.net,节点选择
+ - DOMAIN,dmqdd6hw24ucf.cloudfront.net,节点选择
+ - DOMAIN,ktpx.amazon.com,节点选择
+ - DOMAIN-SUFFIX,aboutamazon.com,节点选择
+ - DOMAIN-SUFFIX,aiv-cdn.net,节点选择
+ - DOMAIN-SUFFIX,aiv-delivery.net,节点选择
+ - DOMAIN-SUFFIX,amazon.jobs,节点选择
+ - DOMAIN-SUFFIX,amazontools.com,节点选择
+ - DOMAIN-SUFFIX,amazontours.com,节点选择
+ - DOMAIN-SUFFIX,amazonuniversity.jobs,节点选择
+ - DOMAIN-SUFFIX,amazonvideo.com,节点选择
+ - DOMAIN-SUFFIX,media-amazon.com,节点选择
+ - DOMAIN-SUFFIX,pv-cdn.net,节点选择
+ - DOMAIN-SUFFIX,seattlespheres.com,节点选择
+ - DOMAIN,gspe1-ssl.ls.apple.com,节点选择
+ - DOMAIN,np-edge.itunes.apple.com,节点选择
+ - DOMAIN,play-edge.itunes.apple.com,节点选择
+ - DOMAIN-SUFFIX,tv.apple.com,节点选择
+ - DOMAIN-KEYWORD,bbcfmt,节点选择
+ - DOMAIN-KEYWORD,uk-live,节点选择
+ - DOMAIN,aod-dash-uk-live.akamaized.net,节点选择
+ - DOMAIN,aod-hls-uk-live.akamaized.net,节点选择
+ - DOMAIN,vod-dash-uk-live.akamaized.net,节点选择
+ - DOMAIN,vod-thumb-uk-live.akamaized.net,节点选择
+ - DOMAIN-SUFFIX,bbc.co,节点选择
+ - DOMAIN-SUFFIX,bbc.co.uk,节点选择
+ - DOMAIN-SUFFIX,bbc.com,节点选择
+ - DOMAIN-SUFFIX,bbc.net.uk,节点选择
+ - DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net,节点选择
+ - DOMAIN-SUFFIX,bbci.co,节点选择
+ - DOMAIN-SUFFIX,bbci.co.uk,节点选择
+ - DOMAIN-SUFFIX,bidi.net.uk,节点选择
+ - DOMAIN,bahamut.akamaized.net,节点选择
+ - DOMAIN,gamer-cds.cdn.hinet.net,节点选择
+ - DOMAIN,gamer2-cds.cdn.hinet.net,节点选择
+ - DOMAIN-SUFFIX,bahamut.com.tw,节点选择
+ - DOMAIN-SUFFIX,gamer.com.tw,节点选择
+ - DOMAIN-KEYWORD,voddazn,节点选择
+ - DOMAIN,d151l6v8er5bdm.cloudfront.net,节点选择
+ - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,节点选择
+ - DOMAIN-SUFFIX,d1sgwhnao7452x.cloudfront.net,节点选择
+ - DOMAIN-SUFFIX,dazn-api.com,节点选择
+ - DOMAIN-SUFFIX,dazn.com,节点选择
+ - DOMAIN-SUFFIX,dazndn.com,节点选择
+ - DOMAIN-SUFFIX,dcblivedazn.akamaized.net,节点选择
+ - DOMAIN-SUFFIX,indazn.com,节点选择
+ - DOMAIN-SUFFIX,indaznlab.com,节点选择
+ - DOMAIN-SUFFIX,sentry.io,节点选择
+ - DOMAIN-SUFFIX,deezer.com,节点选择
+ - DOMAIN-SUFFIX,dzcdn.net,节点选择
+ - DOMAIN-SUFFIX,disco-api.com,节点选择
+ - DOMAIN-SUFFIX,discovery.com,节点选择
+ - DOMAIN-SUFFIX,uplynk.com,节点选择
+ - DOMAIN,cdn.registerdisney.go.com,节点选择
+ - DOMAIN-SUFFIX,adobedtm.com,节点选择
+ - DOMAIN-SUFFIX,bam.nr-data.net,节点选择
+ - DOMAIN-SUFFIX,bamgrid.com,节点选择
+ - DOMAIN-SUFFIX,braze.com,节点选择
+ - DOMAIN-SUFFIX,cdn.optimizely.com,节点选择
+ - DOMAIN-SUFFIX,cdn.registerdisney.go.com,节点选择
+ - DOMAIN-SUFFIX,cws.conviva.com,节点选择
+ - DOMAIN-SUFFIX,d9.flashtalking.com,节点选择
+ - DOMAIN-SUFFIX,disney-plus.net,节点选择
+ - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,节点选择
+ - DOMAIN-SUFFIX,disney.demdex.net,节点选择
+ - DOMAIN-SUFFIX,disney.my.sentry.io,节点选择
+ - DOMAIN-SUFFIX,disneyplus.bn5x.net,节点选择
+ - DOMAIN-SUFFIX,disneyplus.com,节点选择
+ - DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net,节点选择
+ - DOMAIN-SUFFIX,disneystreaming.com,节点选择
+ - DOMAIN-SUFFIX,dssott.com,节点选择
+ - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,节点选择
+ - DOMAIN-SUFFIX,js-agent.newrelic.com,节点选择
+ - DOMAIN,bcbolt446c5271-a.akamaihd.net,节点选择
+ - DOMAIN,content.jwplatform.com,节点选择
+ - DOMAIN,edge.api.brightcove.com,节点选择
+ - DOMAIN,videos-f.jwpsrv.com,节点选择
+ - DOMAIN-SUFFIX,encoretvb.com,节点选择
+ - DOMAIN-SUFFIX,fox.com,节点选择
+ - DOMAIN-SUFFIX,foxdcg.com,节点选择
+ - DOMAIN-SUFFIX,uplynk.com,节点选择
+ - DOMAIN-SUFFIX,hbo.com,节点选择
+ - DOMAIN-SUFFIX,hbogo.com,节点选择
+ - DOMAIN-SUFFIX,hbomax.com,节点选择
+ - DOMAIN-SUFFIX,hbomaxcdn.com,节点选择
+ - DOMAIN-SUFFIX,hbonow.com,节点选择
+ - DOMAIN-KEYWORD,hbogoasia,节点选择
+ - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,节点选择
+ - DOMAIN,bcbolthboa-a.akamaihd.net,节点选择
+ - DOMAIN,cf-images.ap-southeast-1.prod.boltdns.net,节点选择
+ - DOMAIN,dai3fd1oh325y.cloudfront.net,节点选择
+ - DOMAIN,hboasia1-i.akamaihd.net,节点选择
+ - DOMAIN,hboasia2-i.akamaihd.net,节点选择
+ - DOMAIN,hboasia3-i.akamaihd.net,节点选择
+ - DOMAIN,hboasia4-i.akamaihd.net,节点选择
+ - DOMAIN,hboasia5-i.akamaihd.net,节点选择
+ - DOMAIN,hboasialive.akamaized.net,节点选择
+ - DOMAIN,hbogoprod-vod.akamaized.net,节点选择
+ - DOMAIN,hbolb.onwardsmg.com,节点选择
+ - DOMAIN,hbounify-prod.evergent.com,节点选择
+ - DOMAIN,players.brightcove.net,节点选择
+ - DOMAIN,s3-ap-southeast-1.amazonaws.com,节点选择
+ - DOMAIN-SUFFIX,hboasia.com,节点选择
+ - DOMAIN-SUFFIX,hbogoasia.com,节点选择
+ - DOMAIN-SUFFIX,hbogoasia.hk,节点选择
+ - DOMAIN-SUFFIX,5itv.tv,节点选择
+ - DOMAIN-SUFFIX,ocnttv.com,节点选择
+ - DOMAIN-SUFFIX,cws-hulu.conviva.com,节点选择
+ - DOMAIN-SUFFIX,hulu.com,节点选择
+ - DOMAIN-SUFFIX,hulu.hb.omtrdc.net,节点选择
+ - DOMAIN-SUFFIX,hulu.sc.omtrdc.net,节点选择
+ - DOMAIN-SUFFIX,huluad.com,节点选择
+ - DOMAIN-SUFFIX,huluim.com,节点选择
+ - DOMAIN-SUFFIX,hulustream.com,节点选择
+ - DOMAIN-SUFFIX,happyon.jp,节点选择
+ - DOMAIN-SUFFIX,hjholdings.jp,节点选择
+ - DOMAIN-SUFFIX,hulu.jp,节点选择
+ - DOMAIN-SUFFIX,prod.hjholdings.tv,节点选择
+ - DOMAIN-SUFFIX,streaks.jp,节点选择
+ - DOMAIN-SUFFIX,yb.uncn.jp,节点选择
+ - DOMAIN,itvpnpmobile-a.akamaihd.net,节点选择
+ - DOMAIN-SUFFIX,itv.com,节点选择
+ - DOMAIN-SUFFIX,itvstatic.com,节点选择
+ - DOMAIN-SUFFIX,iwara.tv,节点选择
+ - DOMAIN-KEYWORD,jooxweb-api,节点选择
+ - DOMAIN-SUFFIX,joox.com,节点选择
+ - DOMAIN-KEYWORD,japonx,节点选择
+ - DOMAIN-KEYWORD,japronx,节点选择
+ - DOMAIN-SUFFIX,japonx.com,节点选择
+ - DOMAIN-SUFFIX,japonx.net,节点选择
+ - DOMAIN-SUFFIX,japonx.tv,节点选择
+ - DOMAIN-SUFFIX,japonx.vip,节点选择
+ - DOMAIN-SUFFIX,japronx.com,节点选择
+ - DOMAIN-SUFFIX,japronx.net,节点选择
+ - DOMAIN-SUFFIX,japronx.tv,节点选择
+ - DOMAIN-SUFFIX,japronx.vip,节点选择
+ - DOMAIN-SUFFIX,kfs.io,节点选择
+ - DOMAIN-SUFFIX,kkbox.com,节点选择
+ - DOMAIN-SUFFIX,kkbox.com.tw,节点选择
+ - DOMAIN,kktv-theater.kk.stream,节点选择
+ - DOMAIN,theater-kktv.cdn.hinet.net,节点选择
+ - DOMAIN-SUFFIX,kktv.com.tw,节点选择
+ - DOMAIN-SUFFIX,kktv.me,节点选择
+ - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,节点选择
+ - DOMAIN-SUFFIX,litv.tv,节点选择
+ - DOMAIN,d3c7rimkq79yfu.cloudfront.net,节点选择
+ - DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net,节点选择
+ - DOMAIN-SUFFIX,linetv.tw,节点选择
+ - DOMAIN-SUFFIX,profile.line-scdn.net,节点选择
+ - DOMAIN,d349g9zuie06uo.cloudfront.net,节点选择
+ - DOMAIN-SUFFIX,channel5.com,节点选择
+ - DOMAIN-SUFFIX,my5.tv,节点选择
+ - DOMAIN-KEYWORD,nowtv100,节点选择
+ - DOMAIN-KEYWORD,rthklive,节点选择
+ - DOMAIN,mytvsuperlimited.hb.omtrdc.net,节点选择
+ - DOMAIN,mytvsuperlimited.sc.omtrdc.net,节点选择
+ - DOMAIN-SUFFIX,mytvsuper.com,节点选择
+ - DOMAIN-SUFFIX,tvb.com,节点选择
+ - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,节点选择
+ - DOMAIN-KEYWORD,dualstack.apiproxy-,节点选择
+ - DOMAIN-KEYWORD,netflixdnstest,节点选择
+ - DOMAIN,netflix.com.edgesuite.net,节点选择
+ - DOMAIN-SUFFIX,fast.com,节点选择
+ - DOMAIN-SUFFIX,netflix.com,节点选择
+ - DOMAIN-SUFFIX,netflix.net,节点选择
+ - DOMAIN-SUFFIX,netflixdnstest0.com,节点选择
+ - DOMAIN-SUFFIX,netflixdnstest1.com,节点选择
+ - DOMAIN-SUFFIX,netflixdnstest2.com,节点选择
+ - DOMAIN-SUFFIX,netflixdnstest3.com,节点选择
+ - DOMAIN-SUFFIX,netflixdnstest4.com,节点选择
+ - DOMAIN-SUFFIX,netflixdnstest5.com,节点选择
+ - DOMAIN-SUFFIX,netflixdnstest6.com,节点选择
+ - DOMAIN-SUFFIX,netflixdnstest7.com,节点选择
+ - DOMAIN-SUFFIX,netflixdnstest8.com,节点选择
+ - DOMAIN-SUFFIX,netflixdnstest9.com,节点选择
+ - DOMAIN-SUFFIX,nflxext.com,节点选择
+ - DOMAIN-SUFFIX,nflximg.com,节点选择
+ - DOMAIN-SUFFIX,nflximg.net,节点选择
+ - DOMAIN-SUFFIX,nflxso.net,节点选择
+ - DOMAIN-SUFFIX,nflxvideo.net,节点选择
+ - IP-CIDR,8.41.4.0/24,节点选择,no-resolve
+ - IP-CIDR,23.246.0.0/18,节点选择,no-resolve
+ - IP-CIDR,37.77.184.0/21,节点选择,no-resolve
+ - IP-CIDR,38.72.126.0/24,节点选择,no-resolve
+ - IP-CIDR,45.57.0.0/17,节点选择,no-resolve
+ - IP-CIDR,64.120.128.0/17,节点选择,no-resolve
+ - IP-CIDR,66.197.128.0/17,节点选择,no-resolve
+ - IP-CIDR,69.53.224.0/19,节点选择,no-resolve
+ - IP-CIDR,103.87.204.0/22,节点选择,no-resolve
+ - IP-CIDR,108.175.32.0/20,节点选择,no-resolve
+ - IP-CIDR,185.2.220.0/22,节点选择,no-resolve
+ - IP-CIDR,185.9.188.0/22,节点选择,no-resolve
+ - IP-CIDR,192.173.64.0/18,节点选择,no-resolve
+ - IP-CIDR,198.38.96.0/19,节点选择,no-resolve
+ - IP-CIDR,198.45.48.0/20,节点选择,no-resolve
+ - IP-CIDR,203.75.84.0/24,节点选择,no-resolve
+ - IP-CIDR,207.45.72.0/22,节点选择,no-resolve
+ - IP-CIDR,208.75.76.0/22,节点选择,no-resolve
+ - DOMAIN-SUFFIX,dmc.nico,节点选择
+ - DOMAIN-SUFFIX,nicovideo.jp,节点选择
+ - DOMAIN-SUFFIX,nimg.jp,节点选择
+ - DOMAIN-KEYWORD,nivod,节点选择
+ - DOMAIN-SUFFIX,biggggg.com,节点选择
+ - DOMAIN-SUFFIX,mudvod.tv,节点选择
+ - DOMAIN-SUFFIX,nbys.tv,节点选择
+ - DOMAIN-SUFFIX,nbys1.tv,节点选择
+ - DOMAIN-SUFFIX,nbyy.tv,节点选择
+ - DOMAIN-SUFFIX,newpppp.com,节点选择
+ - DOMAIN-SUFFIX,nivod.tv,节点选择
+ - DOMAIN-SUFFIX,nivodi.tv,节点选择
+ - DOMAIN-SUFFIX,nivodz.com,节点选择
+ - DOMAIN-SUFFIX,vod360.net,节点选择
+ - DOMAIN-KEYWORD,olevod,节点选择
+ - DOMAIN-SUFFIX,haiwaikan.com,节点选择
+ - DOMAIN-SUFFIX,iole.tv,节点选择
+ - DOMAIN-SUFFIX,olehd.com,节点选择
+ - DOMAIN-SUFFIX,olelive.com,节点选择
+ - DOMAIN-SUFFIX,olevod.com,节点选择
+ - DOMAIN-SUFFIX,olevod.io,节点选择
+ - DOMAIN-SUFFIX,olevod.tv,节点选择
+ - DOMAIN-SUFFIX,olevodtv.com,节点选择
+ - DOMAIN-KEYWORD,openai,节点选择
+ - DOMAIN-SUFFIX,auth0.com,节点选择
+ - DOMAIN-SUFFIX,challenges.cloudflare.com,节点选择
+ - DOMAIN-SUFFIX,chatgpt.com,节点选择
+ - DOMAIN-SUFFIX,client-api.arkoselabs.com,节点选择
+ - DOMAIN-SUFFIX,events.statsigapi.net,节点选择
+ - DOMAIN-SUFFIX,featuregates.org,节点选择
+ - DOMAIN-SUFFIX,identrust.com,节点选择
+ - DOMAIN-SUFFIX,intercom.io,节点选择
+ - DOMAIN-SUFFIX,intercomcdn.com,节点选择
+ - DOMAIN-SUFFIX,oaistatic.com,节点选择
+ - DOMAIN-SUFFIX,oaiusercontent.com,节点选择
+ - DOMAIN-SUFFIX,openai.com,节点选择
+ - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,节点选择
+ - DOMAIN-SUFFIX,sentry.io,节点选择
+ - DOMAIN-SUFFIX,stripe.com,节点选择
+ - DOMAIN-SUFFIX,pbs.org,节点选择
+ - DOMAIN-SUFFIX,pandora.com,节点选择
+ - DOMAIN-SUFFIX,phncdn.com,节点选择
+ - DOMAIN-SUFFIX,phprcdn.com,节点选择
+ - DOMAIN-SUFFIX,pornhub.com,节点选择
+ - DOMAIN-SUFFIX,pornhubpremium.com,节点选择
+ - DOMAIN-SUFFIX,qobuz.com,节点选择
+ - DOMAIN-SUFFIX,p-cdn.us,节点选择
+ - DOMAIN-SUFFIX,sndcdn.com,节点选择
+ - DOMAIN-SUFFIX,soundcloud.com,节点选择
+ - DOMAIN-KEYWORD,-spotify-,节点选择
+ - DOMAIN-KEYWORD,spotify.com,节点选择
+ - DOMAIN-SUFFIX,pscdn.co,节点选择
+ - DOMAIN-SUFFIX,scdn.co,节点选择
+ - DOMAIN-SUFFIX,spoti.fi,节点选择
+ - DOMAIN-SUFFIX,spotify.com,节点选择
+ - DOMAIN-SUFFIX,spotifycdn.com,节点选择
+ - DOMAIN-SUFFIX,spotifycdn.net,节点选择
+ - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,节点选择
+ - DOMAIN-SUFFIX,tidal.com,节点选择
+ - DOMAIN-SUFFIX,tidalhifi.com,节点选择
+ - DOMAIN,hamifans.emome.net,节点选择
+ - DOMAIN-SUFFIX,skyking.com.tw,节点选择
+ - DOMAIN-KEYWORD,tiktokcdn,节点选择
+ - DOMAIN-SUFFIX,byteoversea.com,节点选择
+ - DOMAIN-SUFFIX,ibytedtos.com,节点选择
+ - DOMAIN-SUFFIX,ipstatp.com,节点选择
+ - DOMAIN-SUFFIX,muscdn.com,节点选择
+ - DOMAIN-SUFFIX,musical.ly,节点选择
+ - DOMAIN-SUFFIX,tik-tokapi.com,节点选择
+ - DOMAIN-SUFFIX,tiktok.com,节点选择
+ - DOMAIN-SUFFIX,tiktokcdn.com,节点选择
+ - DOMAIN-SUFFIX,tiktokv.com,节点选择
+ - DOMAIN-KEYWORD,ttvnw,节点选择
+ - DOMAIN-SUFFIX,ext-twitch.tv,节点选择
+ - DOMAIN-SUFFIX,jtvnw.net,节点选择
+ - DOMAIN-SUFFIX,ttvnw.net,节点选择
+ - DOMAIN-SUFFIX,twitch-ext.rootonline.de,节点选择
+ - DOMAIN-SUFFIX,twitch.tv,节点选择
+ - DOMAIN-SUFFIX,twitchcdn.net,节点选择
+ - PROCESS-NAME,com.viu.pad,节点选择
+ - PROCESS-NAME,com.viu.phone,节点选择
+ - PROCESS-NAME,com.vuclip.viu,节点选择
+ - DOMAIN,api.viu.now.com,节点选择
+ - DOMAIN,d1k2us671qcoau.cloudfront.net,节点选择
+ - DOMAIN,d2anahhhmp1ffz.cloudfront.net,节点选择
+ - DOMAIN,dfp6rglgjqszk.cloudfront.net,节点选择
+ - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,节点选择
+ - DOMAIN-SUFFIX,d1k2us671qcoau.cloudfront.net,节点选择
+ - DOMAIN-SUFFIX,d2anahhhmp1ffz.cloudfront.net,节点选择
+ - DOMAIN-SUFFIX,dfp6rglgjqszk.cloudfront.net,节点选择
+ - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,节点选择
+ - DOMAIN-SUFFIX,viu.com,节点选择
+ - DOMAIN-SUFFIX,viu.now.com,节点选择
+ - DOMAIN-SUFFIX,viu.tv,节点选择
+ - DOMAIN-KEYWORD,youtube,节点选择
+ - DOMAIN,youtubei.googleapis.com,节点选择
+ - DOMAIN,yt3.ggpht.com,节点选择
+ - DOMAIN-SUFFIX,googlevideo.com,节点选择
+ - DOMAIN-SUFFIX,gvt2.com,节点选择
+ - DOMAIN-SUFFIX,withyoutube.com,节点选择
+ - DOMAIN-SUFFIX,youtu.be,节点选择
+ - DOMAIN-SUFFIX,youtube-nocookie.com,节点选择
+ - DOMAIN-SUFFIX,youtube.com,节点选择
+ - DOMAIN-SUFFIX,youtubeeducation.com,节点选择
+ - DOMAIN-SUFFIX,youtubegaming.com,节点选择
+ - DOMAIN-SUFFIX,youtubekids.com,节点选择
+ - DOMAIN-SUFFIX,yt.be,节点选择
+ - DOMAIN-SUFFIX,ytimg.com,节点选择
+ - DOMAIN,music.youtube.com,节点选择
  - DOMAIN-SUFFIX,1password.com,节点选择
  - DOMAIN-SUFFIX,adguard.org,节点选择
  - DOMAIN-SUFFIX,bit.no.com,节点选择
